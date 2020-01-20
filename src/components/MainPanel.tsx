@@ -43,7 +43,7 @@ export class MainPanel extends PureComponent<Props> {
 
     const carto = new TileLayer({
       source: new XYZ({
-        url: 'https://{1-4}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+        url: 'https://{1-4}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
       }),
     });
     this.map = new Map({

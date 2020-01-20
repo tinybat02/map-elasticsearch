@@ -52868,7 +52868,7 @@ function (_super) {
     var buffer = this.props.data.series[0].fields[0].values.buffer;
     var carto = new ol_layer__WEBPACK_IMPORTED_MODULE_6__["Tile"]({
       source: new ol_source_XYZ__WEBPACK_IMPORTED_MODULE_5__["default"]({
-        url: 'https://{1-4}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'
+        url: 'https://{1-4}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png'
       })
     });
     this.map = new ol__WEBPACK_IMPORTED_MODULE_4__["Map"]({
