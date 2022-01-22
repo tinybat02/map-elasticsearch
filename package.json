@@ -19,7 +19,7 @@
     "@types/nanoid": "^2.1.0",
     "@types/ol": "^5.3.6",
     "@types/react-dom": "^16.9.4",
-    "nanoid": "^2.1.8",
+    "nanoid": "^3.1.31",
     "ol": "^6.1.1"
   }
 }
